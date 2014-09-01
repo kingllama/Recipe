@@ -1,0 +1,133 @@
+body {
+	background-color: #F9F3E3;
+	font-family: Palatino;
+	font-color: #191710; 
+}
+h1 {
+	font-size: 3em;
+}
+#title {
+	width: 100%;
+	padding-top: 10px;
+}
+#title h1 {
+	text-align: center;
+}
+#main {
+	padding-top: 5px;
+	width: 930px;
+	margin: auto;
+	float:none;
+}
+.pictures {
+	width: 100px;
+	height: auto;
+	float: right;
+	margin-left: 5px;
+}
+.pictures img {
+	float: right;
+	margin: 5px;
+	width: 100px;
+	height: auto;
+	border: 5px solid;
+	border-color: #D78B7D;
+	border-radius: 3px;
+	z-index: 1;
+	padding: 0px;
+	position: ab;
+	-webkit-transition:width 0.5s;
+}
+.pictures img:hover {
+	float: right;
+	margin: 5px;
+	width: 500px;
+	height: auto;
+	position: relative;
+	z-index: 1;
+	-webkit-transition:width 0.5s;
+}
+#ingredients {
+	float: right;
+	background-color: #CFC8B5;
+	margin: 5px;
+	margin-left: 8px;	
+	border: 5px solid;
+	border-color: #D78B7D;
+	border-radius: 3px;
+	box-shadow: 4px 8px 8px #CFC8B5;
+	z-index: 3;
+	position: fixed;
+}
+#ingredients ul {
+	cursor: pointer;
+	margin: 8px;
+}
+#recipe {
+	float:right;
+	background-color: #CFC8B5;
+	width: 550px;
+	height: 800px;
+	margin: 5px;
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	border: 5px solid;
+	border-color: #62868D;
+	border-radius: 3px;
+	box-shadow: 4px 8px 8px #CFC8B5;
+	z-index: 2;
+}
+/*Mainlist*/
+.mainlist {
+	padding-right: 100px;
+	z-index: 2;
+	margin: 8px;
+}
+.mainlist * {
+	margin: 9px;
+}
+/*Maintxt*/
+.maintxt {
+	margin: 8px;
+}
+.maintxt section {
+	margin: 8px;
+	padding-right: 5px;
+}
+.maintxt section > * {
+	margin: 8px;
+}
+.maintxt p {
+	margin-right: 120px;
+}
+.maintxt ul * {
+	margin: 8px;
+}
+#notMainText {
+	margin-right: 8px;
+}
+#bottommark {
+	text-align: center;
+	font-size: 0.65em;
+	font-style: italic;
+	color: #CFC8B5;
+	margin-top: 875px;
+}
+/*Jquery*/
+#textbutton {
+	font-size: 1em;
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 60px;	
+	cursor: pointer;
+	color: #4d696f;
+}
+
+.normal {
+	font-weight: normal;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
